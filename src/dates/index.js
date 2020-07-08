@@ -13,7 +13,7 @@ const calendar = () => {
 
 const currentTime = () => {
   // write code for dates.currentTime
-  return moment("LTS");
+  return moment().format('LTS')
 }
 
 module.exports = {
