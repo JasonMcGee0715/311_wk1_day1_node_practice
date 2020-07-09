@@ -6,7 +6,7 @@ const split = (str, delim) => {
 
 const pairs = (str) => {
   // write code for strings.pairs
-  let pairs = str.match(/(..?)/g);
+  let pairs = str.match(/(..)/g);
   return pairs;
 }
 
